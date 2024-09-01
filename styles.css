@@ -1,0 +1,247 @@
+/* General Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+header {
+    background-color: cadetblue;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Ensure header stays above other content */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+/* Main Section Styling */
+.all1 {
+    background-image: url('bak1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px 20px;
+    color: white;
+}
+
+.all2 {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.all3 {
+    background-color: #ddd;
+    padding: 40px 20px;
+}
+
+/* Section Styling */
+.bk1, .bk2, .bk3 {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Text Section */
+.bk1 {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.tp{
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.tp h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.all2 .title {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.title p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+    text-align: left;
+}
+
+/* Flexbox Layout for Section 2 */
+.bk2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map {
+    flex: 1;
+    text-align: center;
+}
+
+.ph2 {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Section 3 Styling */
+.bk3 {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.b1 {
+    margin-bottom: 30px;
+}
+
+.b1 h {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.b1 h2 {
+    font-size: 28px;
+    color: #555;
+    margin: 15px 0;
+}
+
+.b1 p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Flexbox for Pictures */
+.bk3-pictures {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bk3-pictures .p1,
+.bk3-pictures .p2,
+.bk3-pictures .p3,
+.bk3-pictures .p4,
+.bk3-pictures .p5,
+.bk3-pictures .p6,
+.bk3-pictures .p7,
+.bk3-pictures .p8 {
+    width: 22%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.bk3-pictures .p1:hover,
+.bk3-pictures .p2:hover,
+.bk3-pictures .p3:hover,
+.bk3-pictures .p4:hover,
+.bk3-pictures .p5:hover,
+.bk3-pictures .p6:hover,
+.bk3-pictures .p7:hover,
+.bk3-pictures .p8:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.bk3-pictures img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.bk3-pictures p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+/* Footer Styling */
+footer {
+    background-color: cadetblue;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.vedio {
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.link a:hover {
+    color: #000;
+}
+
